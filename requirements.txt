@@ -1,0 +1,13 @@
+langchain==1.2.14
+langchain-community==0.4.1
+langchain-core==1.2.23
+langchain-openai==1.1.12
+langchain-google-genai==4.2.1
+langchain-postgres==0.0.17
+langchain-text-splitters==1.1.1
+openai==2.30.0
+psycopg[binary]==3.3.3
+pgvector==0.3.6
+pypdf==6.9.2
+python-dotenv==1.2.2
+SQLAlchemy==2.0.48

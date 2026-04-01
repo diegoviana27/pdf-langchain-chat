@@ -36,8 +36,8 @@ Pipeline completo para ingestão de PDFs e busca semântica via CLI, utilizando 
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/<seu-usuario>/<seu-repositorio>.git
-cd <seu-repositorio>
+git clone https://github.com/diegoviana27/pdf-langchain-chat.git
+cd pdf-langchain-chat
 ```
 
 ### 2. Crie e ative o ambiente virtual
@@ -181,7 +181,7 @@ python src/search.py "Qual é a receita bruta anual?"
 | Chunk overlap | 150 caracteres |
 | k (resultados) | 10 |
 | Embedding OpenAI | `text-embedding-3-small` |
-| Embedding Gemini | `models/embedding-001` |
+| Embedding Gemini | `models/gemini-embedding-001` |
 | LLM OpenAI | `gpt-4o-mini` |
 | LLM Gemini | `gemini-2.5-flash-lite` |
 | Banco | PostgreSQL 16 + pgVector |
